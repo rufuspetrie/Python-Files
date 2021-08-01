@@ -9,4 +9,4 @@ while(len(x)>1):
 	x = x[1::2]
 	steps += 1
 print("The monster took {} rounds until he finished".format(steps))
-print("The final person had index ")
+print("The final person had index {0}".format(x[0]))
